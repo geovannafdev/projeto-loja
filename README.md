@@ -39,7 +39,7 @@ Os requisitos foram:
 ## :rocket: Proxima etapa
 
 Melhorar responsividade.  
-## Visualizar
+## :link: Visualizar
 Para visualizar o site completo <a target="_blank" href="https://geovannafdev.github.io/projeto-loja/">clique aqui</a>
 
 ## :calling: Demonstração
