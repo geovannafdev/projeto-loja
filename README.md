@@ -31,18 +31,19 @@ Os requisitos foram:
    * Endereço
    * Telefone
    * Redes Sociais
-## Tecnologias usadas:
+## :computer_mouse: Tecnologias usadas:
 
 * HTML
 * CSS
 * BOOTSTRAP
-## Proxima etapa
+## :rocket: Proxima etapa
 
 Melhorar responsividade.
 
-## Demonstração
-
+## :calling: Demonstração
+* Desktop
 ![Desktop](src/images/desktop.gif)
 
+* Mobile
 ![Mobile](src/images/mobile.gif)
 
