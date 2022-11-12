@@ -47,6 +47,7 @@ Para visualizar o site completo <a target="_blank" href="https://geovannafdev.gi
 ![Desktop](src/images/desktop.gif)   
 
 
-* Mobile
+* Mobile   
+
 ![Mobile](src/images/mobile.gif)
 
