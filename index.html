@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Geovanna Fernandes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="src/js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" defer></script>
+    <script src="https://kit.fontawesome.com/e3d0dfbb3d.js" crossorigin="anonymous" defer></script>
+
+    <title>Cadeirinhas: conforto e qualidade</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" id="tipo-logo" ><img src="src/images/logo.png" alt="logo" width="60" height="60"> Cadeirinhas</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#quemSomos">Quem somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#time">Nosso time</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#produtos">Nossos produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa-solid fa-user"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="src/images/01.png" class="d-block w-100" alt="uma cadeira de cor laranja, uma mesa e outra cadeira de cor verde">
+                <div class="carousel-caption d-block d-sm-block" id="carouselCaption">
+                    <h5>Você merece</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="src/images/02.png" class="d-block w-100" alt="Sala de estar com algumas cadeiras">
+                <div class="carousel-caption d-block d-sm-block" id="carouselCaption">
+                    <h5>O charme para sua sala</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="src/images/03.png" class="d-block w-100" alt="Uma cadeira branca ao lado de um vaso de plantas">
+                <div class="carousel-caption d-block d-sm-block" id="carouselCaption">
+                    <h5>Seu cantinho harmônico</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="src/images/04.png" class="d-block w-100" alt="duas cadeiras cinzas">
+                <div class="carousel-caption d-inline d-md-inline" id="carouselCaption">
+                    <h5>Os tons mais elegantes</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+    <main>
+        <section id="quemSomos">
+            <h1 class="tituloSection">Quem somos</h1>
+            <div class="quemSomosContainer">
+                <div class="textSomos">
+                    <p> O Cadeirinhas surgiu em 2020 com o objetivo de oferecer a maior diversidade em cadeiras do mercado e praticidade aos clientes. Em um curto espaço de tempo, a empresa tomou forma e hoje é referência em ecommerce de móveis
+                    </p>
+                </div>
+                <img src="src/images/sobre.png" alt="Uma cadeira branca em frente a uma escrivaninha">
+                </div>
+            </div>
+        </section>
+        <section id="time">
+            <h1 class="tituloSection">Nosso time</h1>
+
+            <div class="containerTime">
+                <div class="card border-0" style="width: 18rem;">
+                    <img class="card-img-top" src="src/images/pessoa.png" alt="Foto de uma mulher negra sorridente de cabelos cacheados">
+                    <div class="card-body">
+                      <h5 class="card-title">Maitê Hadassa</h5>
+                      <p class="card-text">CEO</p>
+                      <a href="#" class="btn">Redes Sociais</a>
+                    </div>
+                </div>
+                <div class="card border-0" style="width: 18rem;">
+                    <img class="card-img-top" src="src/images/pessoa2.jpg" alt="Foto de uma mulher negra com expressão séria e cabelo curto crespo">
+                    <div class="card-body">
+                      <h5 class="card-title">Geovanna Fernandes</h5>
+                      <p class="card-text">Desenvolvedora Web</p>
+                      <a href="#" class="btn">Redes Sociais</a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="produtos">
+            <h1 class="tituloSection">Nossos produtos</h1>
+            <div class="containerCard">
+                <div class="card-produtos">
+                    <img src="src/images/cadeira01.png" alt="cadeira marrom">
+                    <span class="valor">R$ 600,00</span>
+                    <h4>Cadeirinha Marrom</h4>
+                    <a href="#" class="btn-produtos">Comprar
+                    </a>
+                </div>
+                <div class="card-produtos">
+                    <img src="src/images/cadeira02.png" alt="cadeira cinza">
+                    <span class="valor">R$ 600,00</span>
+                    <h4>Cadeirinha Cinza</h4>
+                    <a href="#" class="btn-produtos">Comprar
+                    </a>
+                </div>
+                <div class="card-produtos">
+                    <img src="src/images/cadeira03.png" alt="cadeira bege">
+                    <span class="valor">R$ 600,00</span>
+                    <h4>Cadeirinha Bege</h4>
+                    <a href="#" class="btn-produtos">Comprar
+                    </a>
+                </div>
+                <div class="card-produtos">
+                    <img src="src/images/cadeira04.png" alt="cadeira preta">
+                    <span class="valor">R$ 600,00</span>
+                    <h4>Cadeirinha Preta</h4>
+                    <a href="#" class="btn-produtos">Comprar
+                    </a>
+                </div>
+                <div class="card-produtos">
+                    <img src="src/images/cadeira05.png" alt="cadeira de Escritório">
+                    <span class="valor">R$ 600,00</span>
+                    <h4>Cadeirinha Escritório</h4>
+                    <a href="#" class="btn-produtos">Comprar
+                    </a>
+                </div>
+                <div class="card-produtos">
+                    <img src="src/images/cadeira06.png" alt="cadeira de Escritório">
+                    <span class="valor">R$ 600,00</span>
+                    <h4>Cadeirinha Escritório 2</h4>
+                    <a href="#" class="btn-produtos">Comprar 
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="containerFooter">
+            <div class="news">
+                <div class="titleNews">
+                    <h5>Assine a nossa newsletter</h5>
+                    <p>E receba ofertas exclusivas</p>
+                </div>
+                <form class="formNews">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+            <div class="informacoes">
+                <div class="endereco">
+                    <h5>Endereço</h5>
+                    <p>Cadeirinhas - Matriz<br>
+                    Setor de Diversão Norte<br>
+                    CEP: 70.077-900
+                    </p>
+                </div>
+                <div class="contatos">
+                    <h5>Contatos</h5>
+                    <p>(61) 2827-7477<br>
+                    E-mail: cadeirinhas@contato.com</p>
+                </div>
+                <div class="redes">
+                    <h5>Redes Sociais</h5>
+                    <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="https://www.linkedin.com/in/geovannafdev/"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a>
+                    <a href="https://github.com/geovannafdev"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="myModalLabel"><span id="logo-login">
+            <img src="src/images/logo.png"> 
+          </span>
+          Fazer login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" class="cadastroLogin">
+                <label for="email">Seu E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Ex: maria@email.com" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required>
+
+                <a href="" data-bs-target="#myModalToggle2" data-bs-toggle="modal">Ainda não tem cadastro? Clique aqui</a>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalToggle2" aria-hidden="true" aria-labelledby="myModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="myModalToggleLabel2">
+            <span id="logo-login">
+                <img src="src/images/logo.png"> 
+            </span>
+            Cadastre-se
+        </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" class="cadastroLogin">
+            <label for="nome">Seu nome</label>
+            <input type="text" placeholder="Ex: Nome Sobrenome">
+            <label for="email">Seu E-mail</label>
+            <input type="email" name="email" id="email" placeholder="email@email.com">
+            <label for="cel">Celular</label>
+            <input type="tel" name="cel" id="cel" placeholder="( ) 1 1111-1111">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#myModalToggle" data-bs-toggle="modal">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>

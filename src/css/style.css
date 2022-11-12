@@ -1,0 +1,218 @@
+#tipo-logo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+}
+
+ul.navbar-nav{
+    margin-left: auto;
+}
+#carouselCaption h5{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+
+a.nav-link{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+main{
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+.tituloSection{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-family: 'Amatic SC';
+    font-size: 3rem;
+}
+.quemSomosContainer{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.quemSomosContainer img{
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 60px;
+}
+.quemSomosContainer img:hover, .containerTime img:hover{
+    transform: translateY(-10px);
+}
+
+.quemSomosContainer p {
+    font-size: 2rem;
+    font-family: 'Amatic SC';
+    color: black;
+    text-align: justify;
+    
+}
+
+.containerTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 100px 15px 100px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+.containerTime a{
+    border: 1px solid black;
+}
+.containerTime a:hover{
+    background: blue;
+    color: white;
+    transition: 1s;
+    font-weight: bold;
+}
+.containerTime img{
+    border-radius: 50%;
+}
+
+.containerCard{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+.card-produtos{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.btn-produtos{
+    background: #32B87B;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.btn-produtos:hover{
+    background: #299A67;
+    color: white;
+}
+.valor{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.news{
+    background: #e1b152;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+.titleNews , .formNews{
+    padding: 0 50px;
+}
+.formNews input{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.formNews input[type=submit]{
+    font-size: 1rem;
+    background:  #E8E4E4;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.formNews input[type=submit]:hover{
+    background: #d9d9d9;
+    transition: 1s;
+}
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 100px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+
+.cadastroLogin {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.cadastroLogin  input{
+    padding: 0 10px;
+}
+.cadastroLogin  a{
+    color: black;
+}
+#logo-login img{
+    width: 70px;
+}
+
+@media (max-width: 375px ) {
+    
+    .formNews input{
+        margin: 10px;
+
+    }
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+    }
+    .news{
+        text-align: center;
+    }
+    .containerTime{
+        flex-direction: column;
+    }
+    .quemSomosContainer img{
+        width: 300px;
+    }
+    .modal-body input, label {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .quemSomosContainer {
+        flex-direction: column;
+    }
+    .quemSomosContainer p{
+        margin: 0 30px;
+    }
+    .containerTime{
+        padding: 0 2px;
+    }
+    .card-produtos{
+        flex-direction: column;
+    }
+
+
+}
+@media (max-width: 1024px ) {
+    .news{
+        flex-wrap: wrap;  
+    }
+}
