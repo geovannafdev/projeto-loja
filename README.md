@@ -38,11 +38,14 @@ Os requisitos foram:
 * BOOTSTRAP
 ## :rocket: Proxima etapa
 
-Melhorar responsividade.
+Melhorar responsividade.  
+## Visualizar
+Para visualizar o site completo <a target="_blank" href="https://geovannafdev.github.io/projeto-loja/">clique aqui</a>
 
 ## :calling: Demonstração
 * Desktop
-![Desktop](src/images/desktop.gif)
+![Desktop](src/images/desktop.gif)   
+
 
 * Mobile
 ![Mobile](src/images/mobile.gif)
